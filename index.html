@@ -1,0 +1,121 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link
+        rel="icon"
+        href="resources/favicon.ico"
+        type="image/x-icon"
+        sizes="96x96"
+      />
+      <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+      <title>devChallenges.io | Minimal Blog Card</title>
+
+      <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: 'Sora',sans-serif;
+          display:flex;
+          min-height: 100vh;
+          justify-content: center;
+          
+        }
+
+        .box-item {
+          display: flex;
+          flex-direction:column;
+          width: 368px;
+          height: fit-content;
+          border-style: hidden;
+          box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+          margin-top: 162px;  
+          background-color: #ffffff;
+          border-radius: 16px;
+        }
+
+        .card {
+          margin-top: 16px;
+          margin-left: 16px;
+          margin-right: 16px;
+          margin-bottom: 20px;
+        }
+        .card-img img {
+          width: 336px;
+          height:152px; 
+          border-radius: 16px;
+        }
+        
+        .card-btn{
+          display: flex;
+          margin-top: 16px;
+        }
+        .card-btn span {
+          background-color: #F2EAFD;
+          color: #7C19EE;
+          padding-top: 6px;
+          padding-bottom: 6px;
+          padding-left: 16px;
+          padding-right: 16px;
+          font-size: 10px;
+          font-weight: 700;
+          border-radius: 16px;
+        }
+        .card-content{
+          margin-top: 16px;
+        }
+        .card-content h1{
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .card-content p {
+          margin-top: 6px;
+          font-size: 14px;
+          font-weight: 400;
+          color: #6C727F;
+          line-height: 1.35;
+
+        }
+        .footer-item {
+          margin-top: 20px;
+          border-top:1px solid #F2EAFD;          
+        }
+        .footer-item p {
+          margin-top: 20px;
+          font-size: 12px;
+          font-weight: 400;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="box-item">
+       <div class="card">
+         <div class="header-item">
+          <div class="card-img">
+            <img src="/resources/Cactus.jpg" alt="Cactus.jpg">
+          </div>
+            <div class="card-btn">
+              <span>Design</span>
+            </div>
+            <div class="card-content">
+              <h1>Embracing Minimalism</h1>
+              <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+            </div>
+          
+        </div>
+        <div class="footer-item">
+          <p>Annie Spratt</p>
+          </div>
+        </div>
+        
+       </div>
+      </div>
+    </body>
+  </html>
